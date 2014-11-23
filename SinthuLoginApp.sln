@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinthuLoginApp", "SinthuLoginApp\SinthuLoginApp.csproj", "{B74B2D59-D2B5-49ED-9A72-7E64C9D2BF16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B74B2D59-D2B5-49ED-9A72-7E64C9D2BF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74B2D59-D2B5-49ED-9A72-7E64C9D2BF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74B2D59-D2B5-49ED-9A72-7E64C9D2BF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74B2D59-D2B5-49ED-9A72-7E64C9D2BF16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

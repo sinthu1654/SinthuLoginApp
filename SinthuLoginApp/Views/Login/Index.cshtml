@@ -1,0 +1,21 @@
+﻿@model SinthuLoginApp.Controllers.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+<script src="@Url.Content("~/Scripts/jquery-2.1.1.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery-2.1.1.intellisense.js")"></script>
+
+@using (Html.BeginForm())
+{    
+    @Html.LabelFor(m => m.Username)<br />
+    @Html.TextBoxFor(m => m.Username)
+    <br/><br/>
+    @Html.LabelFor(m => m.Password)<br />
+    @Html.PasswordFor(m => m.Password)
+    <br /><br />
+    <input input type="submit" />
+    @Html.ValidationSummary()
+}
